@@ -9,7 +9,7 @@ namespace _5._10 {
 
         public bool Flip() {
 
-            return randomNumberGenerator.NextDouble() > 0.5;
+            return randomNumberGenerator.Next(0, 2) == 1;
         }
 
         private static Random randomNumberGenerator = new Random();
