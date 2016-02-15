@@ -24,8 +24,7 @@ namespace Tests {
 
         [TestMethod]
         public void Test7_1_StringToInt0() {
-
-            // Negative
+            
             Assert.AreEqual(-0, Problem7_1.StringToInt("-0"));
             Assert.AreEqual(0, Problem7_1.StringToInt("0"));
         }
@@ -48,8 +47,7 @@ namespace Tests {
 
         [TestMethod]
         public void Test7_1_IntToString0() {
-
-            // Negative
+            
             Assert.AreEqual("0", Problem7_1.IntToString(-0));
             Assert.AreEqual("0", Problem7_1.IntToString(0));
         }
