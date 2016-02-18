@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests {
     [TestClass]
-    public class UnitTest1 {
+    public class Test7_1 {
 
         [TestMethod]
         public void Test7_1_StringToInt() {
