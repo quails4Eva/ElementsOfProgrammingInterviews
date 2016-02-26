@@ -1,4 +1,6 @@
 
+// Todo - create a Balanced Subtree detector class that checks if subtrees are balanced- DFS check if are balanced as go along rather than storing state on each node
+
 public class _10_1 {
     public static void main (String[] args) {
         
