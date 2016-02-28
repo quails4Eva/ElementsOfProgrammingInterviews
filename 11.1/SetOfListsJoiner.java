@@ -7,6 +7,7 @@ public class SetOfListsJoiner<T extends Comparable<T>> {
 
     private List<List<T>> lists;
 
+    // Could probably take iterators rather than lists
     public SetOfListsJoiner(List<List<T>> lists) {
         
         this.lists = lists;
