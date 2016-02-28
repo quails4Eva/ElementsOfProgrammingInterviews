@@ -4,6 +4,8 @@ import java.util.LinkedList;
 public class _11_1 {
     public static void main (String[] args) {
         
+        // Could do with more tests
+        
         List<Integer> list1 = new LinkedList<Integer>();
         list1.add(0);
         list1.add(0);
