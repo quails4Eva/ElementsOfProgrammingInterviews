@@ -40,5 +40,15 @@ namespace Tests {
             Assert.AreEqual(0, Problem12_1.BinarySearchFirstInstance(new[] { -1, -1, 1, 1, 1, 5, 12, 12, }, -1));
             Assert.AreEqual(1, Problem12_1.BinarySearchFirstInstance(new[] { -1, 0, 0, 1, 1, 1, 4, 12, 12, }, 0));
         }
+
+        [TestMethod]
+        public void SequenceVariant() {
+
+            Assert.AreEqual(4, Problem12_1Variant.FindMaxInAscendingThenDescendingSequnce(new[] { 1, 2, 3, 5, 7, 6, 4, 2, }));
+            Assert.AreEqual(1, Problem12_1Variant.FindMaxInAscendingThenDescendingSequnce(new[] { 2, 12, 1, }));
+            Assert.AreEqual(3, Problem12_1Variant.FindMaxInAscendingThenDescendingSequnce(new[] { 1, 2, 3, 4, 2, 1, }));
+            Assert.AreEqual(5, Problem12_1Variant.FindMaxInAscendingThenDescendingSequnce(new[] { -1, 1, 2, 3, 5, 12, 2, -20, }));
+            Assert.AreEqual(3, Problem12_1Variant.FindMaxInAscendingThenDescendingSequnce(new[] { -1, 0, 1, 12, -10, }));
+        }
     }
 }
