@@ -13,7 +13,7 @@ namespace _13._1 {
 
             foreach (var val in input) {
 
-                var key = new string(val.OrderBy(c => c).ToArray());
+                var key = new string(val.OrderBy(c => c).ToArray()); // Could maybe use string.Join rather than new String()
 
                 List<string> currentMatches;
 
