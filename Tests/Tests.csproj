@@ -55,7 +55,6 @@
     <Compile Include="Test7_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test8_1.cs" />
-    <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\12.1\12.1.csproj">
