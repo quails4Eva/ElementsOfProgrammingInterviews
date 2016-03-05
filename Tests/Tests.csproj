@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Test12_1.cs" />
     <Compile Include="Test14_1.cs" />
+    <Compile Include="Test15_1.cs" />
     <Compile Include="Test7_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test8_1.cs" />
@@ -68,6 +69,10 @@
     <ProjectReference Include="..\14.1\14.1.csproj">
       <Project>{b85f3aa8-aaa6-4b4f-a329-b9c4a6c804d4}</Project>
       <Name>14.1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\15.1\15.1.csproj">
+      <Project>{0c26ccce-7fc8-4dbd-84b2-60fd7b670691}</Project>
+      <Name>15.1</Name>
     </ProjectReference>
     <ProjectReference Include="..\5.10\05.10.csproj">
       <Project>{92db0ccb-b706-45fb-bc79-0d07133c344b}</Project>
